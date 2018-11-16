@@ -5,7 +5,9 @@ permalink: /events/
 future: true
 ---
 {% for item in site.events %}
-test
+  {% if item.date >= site.time %}
+
+  {% endif %}
 {% endfor %}
 
 <a href="https://calendar.google.com/calendar/embed?src=nycgdc@protonmail.com">Subscribe to the NYC General Defense Committee (GDC) Google Calendar.</a><br>
