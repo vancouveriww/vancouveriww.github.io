@@ -5,7 +5,16 @@ date: 2017-01-14
 categories: news
 permalink: /:categories/:year/:i_month/:i_day/:slug
 ---
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnyciww%2Fvideos%2F1421581117884257%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<iframe src="" width="560" height="315" style="border:none;overflow:hidden;display:none;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" id="fb-video-generalstrike"></iframe>
+<script>
+function loadVideo(vidID, url, self) {
+  document.getElementById(vidID).setAttribute("src", url);
+  document.getElementById(vidID).style.display = "block";
+  document.getElementById(self).style.display = "none";
+}
+</script>
+<br><a id="fb-video-generalstrike-click" onclick="loadVideo('fb-video-generalstrike', 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnyciww%2Fvideos%2F1421581117884257%2F&show_text=0&width=560', 'fb-video-generalstrike-click')">Click to load Facebook video.</a>
+
 <p>
 <br><a href="{{site.baseurl}}/contact">Contact us</a> if you want to know more about IWW in NYC.
 
