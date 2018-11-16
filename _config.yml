@@ -18,5 +18,5 @@ future: true
 
 collections:
   test:
-    one: true
     output: true
+    path: ""
