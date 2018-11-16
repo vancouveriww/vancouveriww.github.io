@@ -10,7 +10,7 @@ future: true
     <div style="padding-left:107px;margin-bottom:60px;" id="events-main-info">
       
       <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
-      <p><br>
+      <p>{{ item.date | date: "%A" }}<br>
       {{ item.time }}</p>
       
     </div>
