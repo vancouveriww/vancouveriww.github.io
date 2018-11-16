@@ -17,7 +17,7 @@ markdown: redcarpet
 future: true
 
 collections:
-  events:
+  events1:
     output: true
     path: ""
     permalink: /events/:path/
