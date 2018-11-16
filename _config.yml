@@ -19,4 +19,3 @@ future: true
 collections:
   events:
     output: true
-    permalink: /events/:path/
