@@ -21,4 +21,4 @@ collections:
     permalink: /events/:path/
     future: true
     
-    future: true
+future: true
