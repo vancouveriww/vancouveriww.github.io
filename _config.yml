@@ -3,6 +3,8 @@ email: nyc-gmb@wobblycity.org
 baseurl: ""
 url: "https://wobblycity.org"
 
+future: true
+
 twitter_username: iwwnyc
 github_username: iww-nyc-gmb
 facebook_username: nyciww
@@ -19,5 +21,3 @@ collections:
     output: true
     path: ""
     permalink: /events/:path/
-    
-    future: false
