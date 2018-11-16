@@ -18,4 +18,3 @@ future: true
 
 collections:
   events:
-    output: true
