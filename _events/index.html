@@ -3,14 +3,14 @@ layout: page
 title: Events
 permalink: /events/
 ---
-{% for event in site.events %}
-  {% if event.status contains 'upcoming' %}
-    {% if event.date >= site.time %}
-      <a href="{{ event.url }}"><div class="date-box"><p style="font-weight:300;">{{ event.date | date: "%b" }}<br><span style="font-size:32px;">{{ event.date | date: "%e" }}</span></p></div></a>
+{% for item in site.events %}
+  {% if item.status contains 'upcoming' %}
+    {% if item.date >= site.time %}
+      <a href="{{ item.url }}"><div class="date-box"><p style="font-weight:300;">{{ item.date | date: "%b" }}<br><span style="font-size:32px;">{{ item.date | date: "%e" }}</span></p></div></a>
       <div style="padding-left:107px;margin-bottom:60px;" id="events-main-info">
-      <a href="{{ event.url }}"><h2>{{ event.title }}</h2></a>
-      <p>{{ event.date | date: "%A" }}, {{ event.date | date_to_long_string: "ordinal", "US" }}<br>
-        {{ event.time }}</p>
+      <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
+      <p>{{ item.date | date: "%A" }}, {{ item.date | date_to_long_string: "ordinal", "US" }}<br>
+        {{ item.time }}</p>
       </div>
       <br>
     {% endif %}
