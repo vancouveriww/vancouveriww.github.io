@@ -30,7 +30,7 @@
 <select id="select-nav" onchange="location = this.value;">
   <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
   <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
-  <option value="{{site.baseurl}}/dues/" {% if page.url contains '/dues/' %}selected{% endif %}>Pay Dues</option>
+  <option value="{{site.baseurl}}/dues/" {% if page.url contains '/dues/' or page.url == '/past-dues/' %}selected{% endif %}>Pay Dues</option>
   <option value="{{site.baseurl}}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events</option>
   <option value="{{site.baseurl}}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
   <optgroup label="About">About
