@@ -15,3 +15,9 @@ meeting_time: 7 to 9 PM
 markdown: redcarpet
 
 future: true
+
+collections:
+  events:
+    output: true
+    path: ""
+    permalink: /events/:path/
