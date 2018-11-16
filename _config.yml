@@ -1,9 +1,8 @@
 title: IWW NYC GMB · Industrial Workers of the World
 email: nyc-gmb@wobblycity.org
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   description
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wobblycity.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
 twitter_username: iwwnyc
 github_username:  iwwnyc
 facebook_username: nyciww
