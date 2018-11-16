@@ -36,8 +36,11 @@ div.duesLevels {
 	div.pp-selection {
 		height: 200px !important;
 	}
-	.pp-sub {
+	.pp-sub.dues {
 		height: 1000px;
+	}
+	.pp-sub.join {
+		height: 1100px;
 	}
 }
 
