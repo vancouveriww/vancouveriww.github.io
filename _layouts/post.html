@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article>
+
+  <header style="text-align:center;">
+    <h1 style="font-size:38px;line-height:1.2;">{{ page.title | escape }}</h1>
+    <p>
+      <time>
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      {%- if page.author -%}
+        <br>{{ page.author }}
+      {%- endif -%}</p>
+  </header></br>
+
+  <div>
+    {{ content }}
+  </div>
+
+</article>

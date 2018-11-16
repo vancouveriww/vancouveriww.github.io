@@ -1,0 +1,25 @@
+title: IWW NYC GMB · Industrial Workers of the World
+email: nyc-gmb@wobblycity.org
+description: >- # this means to ignore newlines until "baseurl:"
+  description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wobblycity.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: iwwnyc
+github_username:  iwwnyc
+facebook_username: nyciww
+instagram_username: iwwnyc
+
+next_meeting_url: /events/november-2018/
+next_meeting_date: Tuesday, July 20, 2018
+meeting_time: 7 to 9 PM
+
+# Build settings
+markdown: redcarpet
+
+future: true
+
+collections:
+  events:
+    output: true
+    path: ""
+    permalink: /events/:path/
