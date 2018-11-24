@@ -22,5 +22,5 @@ collections:
     path: ""
     permalink: /events/:path/
     
-    paginate: 10
+paginate: 10
 paginate_path: "/news/page:num/"
