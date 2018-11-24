@@ -5,6 +5,7 @@ url: "https://wobblycity.org"
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 future: true
 
@@ -24,3 +25,6 @@ collections:
     output: true
     path: ""
     permalink: /events/:path/
+
+paginate: 5
+paginate_path: "/news/page:num/"
