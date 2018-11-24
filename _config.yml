@@ -3,6 +3,9 @@ email: nyc-gmb@wobblycity.org
 baseurl: ""
 url: "https://wobblycity.org"
 
+plugins:
+  - jekyll-feed
+
 future: true
 
 twitter_username: iwwnyc
