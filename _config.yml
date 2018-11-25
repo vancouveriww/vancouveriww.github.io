@@ -4,7 +4,6 @@ baseurl: ""
 url: "https://wobblycity.org"
 
 plugins:
-  - jekyll-feed
   - jekyll-paginate
 
 future: true
