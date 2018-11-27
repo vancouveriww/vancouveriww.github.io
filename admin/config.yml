@@ -26,13 +26,14 @@ collections:
   - name: 'Next Meeting Settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
-    create: false
     editor:
       preview: false
     files:
       - name: 'Next Meeting Settings'
         label: 'Next Meeting Settings'
         file: '_config.yml'
+        extension: 'yaml'
+        format: 'yaml'
         description: 'General Site Settings'
         fields:
           - { label: 'Next Meeting URL', name: 'next_meeting_url', widget: 'string' }
