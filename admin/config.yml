@@ -24,10 +24,10 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
   - name: 'settings'
-    label: 'Next Meeting Settings'
+    label: 'Setting'
     delete: false # Prevent users from deleting documents in this collection
     editor:
-      preview: false
+      preview: true
     files:
       - name: 'general'
         label: 'Next Meeting Settings'
