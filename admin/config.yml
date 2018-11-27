@@ -26,6 +26,7 @@ collections:
   - name: 'Next Meeting Settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
+    create: false
     editor:
       preview: false
     files:
