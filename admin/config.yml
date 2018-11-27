@@ -4,6 +4,8 @@ backend:
 
 display_url: https://static.wobblycity.org
 
+logo_url: /assets/logo.png
+
 publish_mode: editorial_workflow
 
 media_folder: "assets/uploads"
