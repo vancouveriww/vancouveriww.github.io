@@ -23,14 +23,14 @@ collections:
       - {label: "Categories", name: "categories", widget: "string", required: false,}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
-  - name: 'settings'
-    label: 'Settings'
+  - name: 'Next Meeting Settings'
+    label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     files:
-      - name: 'general'
-        label: 'Site Settings'
+      - name: 'Next Meeting Settings'
+        label: 'Next Meeting Settings'
         file: '_config.yml'
         description: 'General Site Settings'
         fields:
