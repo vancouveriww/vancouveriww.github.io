@@ -23,3 +23,17 @@ collections:
       - {label: "Categories", name: "categories", widget: "string", required: false,}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
+ - name: 'settings'
+    label: 'Settings'
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: 'general'
+        label: 'Site Settings'
+        file: '_config.yml'
+        description: 'General Site Settings'
+        fields:
+          - { label: 'Next Meeting URL', name: 'next_meeting_url', widget: 'string' }
+          - { label: 'Next Meeting Date', name: 'next_meeting_date', widget: 'string' }
+          - { label: 'Meeting Time', name: 'meeting_time', widget: 'string' }
