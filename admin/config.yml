@@ -31,7 +31,7 @@ collections:
     files:
       - name: 'general'
         label: 'Next Meeting Settings'
-        file: '_config.yml'
+        file: '_config_test.yml'
         extension: 'yaml'
         format: 'yaml'
         description: 'General Site Settings'
