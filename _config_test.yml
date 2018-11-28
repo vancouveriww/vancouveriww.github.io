@@ -1,23 +1,3 @@
-title: IWW NYC GMB · Industrial Workers of the World
-email: nyc-gmb@wobblycity.org
-baseurl: ""
-url: "https://wobblycity.org"
-
-future: true
-
-twitter_username: iwwnyc
-github_username: iww-nyc-gmb
-facebook_username: nyciww
-instagram_username: iwwnyc
-
 next_meeting_url: /events/december-2018/
-next_meeting_date: 'Tuesday, December 11, 2018'
+next_meeting_date: 'Tuesday, December 11, 2018 test'
 meeting_time: 7 to 9 PM
-
-markdown: kramdown
-
-collections:
-  events:
-    output: true
-    path: ""
-    permalink: /events/:path/
