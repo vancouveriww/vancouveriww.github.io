@@ -27,6 +27,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
   - name: "events"
+    label: "Events"
+    label_singular: "Event"
     folder: "_events"
     create: true
   - name: 'settings'
