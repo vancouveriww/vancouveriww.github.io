@@ -17,7 +17,7 @@ meeting_time: 7 to 9 PM
 markdown: kramdown
 
 collections:
-  events:
-    output: true
-    path: ""
-    permalink: /events/:path/
+  events:
+    output: true
+    path: ""
+    permalink: /events/:path/
