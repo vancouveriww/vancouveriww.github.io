@@ -12,6 +12,8 @@ media_folder: "assets/uploads"
 
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
+    editor:
+      preview: true
     label: "News" # Used in the UI
     folder: "news/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -24,8 +26,6 @@ collections:
       - {label: "Test", name: "test", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
-      editor:
-        preview: true
   - name: 'settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
