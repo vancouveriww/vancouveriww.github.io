@@ -35,7 +35,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
-      - {label: "Time", name: "time", widget: "string"}      
+      - {label: "Time", name: "time", widget: "string"}    
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: 'settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
