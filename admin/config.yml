@@ -39,7 +39,8 @@ collections:
         format: 'yaml'
         description: 'General Site Settings'
         fields:
-          - { label: 'title', name: 'title', default: 'IWW NYC GMB · Industrial Workers of the World\n', widget: 'hidden' }
-          - { label: 'Next Meeting URL', name: 'next_meeting_url', widget: 'string' }
-          - { label: 'Next Meeting Date', name: 'next_meeting_date', widget: 'string' }
-          - { label: 'Meeting Time', name: 'meeting_time', widget: 'string' }
+          - {label: "title", name: "title", default: "IWW NYC GMB · Industrial Workers of the World\n", widget: "hidden"}
+          - {label: "Layout", name: "test", widget: "hidden", default: "123"}
+          - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string"}
+          - {label: "Next Meeting Date", name: "next_meeting_date", widget: "string"}
+          - {label: "Meeting Time", name: "meeting_time", widget: "string"}
