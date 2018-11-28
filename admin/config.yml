@@ -13,7 +13,7 @@ media_folder: "assets/uploads"
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     editor:
-      preview: true
+      preview: false
     label: "News" # Used in the UI
     folder: "news/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
