@@ -31,6 +31,8 @@ collections:
     label_singular: "Event"
     folder: "_events"
     create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
   - name: 'settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
