@@ -26,6 +26,9 @@ collections:
       - {label: "Send to Mailchimp", name: "newsletter", widget: "boolean", hint: "Does not currently work", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
+  - name: "events"
+    folder: "_events"
+    create: true
   - name: 'settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
