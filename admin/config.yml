@@ -20,7 +20,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Categories", name: "categories", widget: "string", required: false,}
+      - {label: "Categories", name: "categories", widget: "string", required: false}
+      - {label: "Test", name: "test", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
   - name: 'settings'
