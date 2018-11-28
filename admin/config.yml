@@ -32,7 +32,10 @@ collections:
     folder: "_events"
     create: true
     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Time", name: "time", widget: "string"}      
   - name: 'settings'
     label: 'Next Meeting Settings'
     delete: false # Prevent users from deleting documents in this collection
