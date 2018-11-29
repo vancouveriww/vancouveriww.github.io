@@ -5,11 +5,11 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         {% for page in site.categories["newsletter"] %}
-          {% if page.newsletter == "true" %}
+
             <item>
                 <title>{{ page.title | xml_escape }}</title>
             </item>
-          {% endif %}
+
         {% endfor %}
     </channel>
 </rss>
