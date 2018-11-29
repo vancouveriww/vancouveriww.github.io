@@ -15,6 +15,7 @@ media_folder: "assets/uploads"
 
 collections:
   - name: "next_meeting_test"
+    label: "Next Meeting Settings"
     files:
       - name: "settings"
         delete: false
