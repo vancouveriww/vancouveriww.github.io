@@ -23,10 +23,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
-      # - {label: "Categories", name: "categories", widget: "string", hint: "Enter 'newsletter' to send to Mailchimp", required: false}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
       - {label: "Send to Mailchimp", name: "newsletter", widget: "boolean", hint: "Send this post as a Mailchimp newsletter", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
   - name: "events"
     editor:
       preview: false
@@ -59,5 +58,5 @@ collections:
             widget: "relation"
             collection: "events"
             searchFields: ["title", "permalink"]
-            valueField: "title"
-            displayFields: ["permalink"]
+            valueField: "permalink"
+            displayFields: ["title", "permalink"]
