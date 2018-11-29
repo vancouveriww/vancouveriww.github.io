@@ -40,8 +40,19 @@ collections:
       - {label: "Date", name: "date", widget: "date", format: "dddd, MMMM D, YYYY"}
       - {label: "Time", name: "time", widget: "string"}    
       - {label: "Body", name: "body", widget: "markdown"}
+    files:
+      - name: 'general'
+        label: 'Next Meeting Settings'
+        file: '_config_test.yml'
+        description: 'Next Meeting Settings'
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+          - {label: "test", name: "test", widget: "hidden", default: "123"}
+          - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string"}
+          - {label: "Next Meeting Date", name: "next_meeting_date", widget: "string"}
+          - {label: "Meeting Time", name: "meeting_time", widget: "string"}
   - name: 'settings'
-    label: 'Next Meeting Settings'
+    label: 'Next Meeting Settings (not yet functional)'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
@@ -49,7 +60,7 @@ collections:
       - name: 'general'
         label: 'Next Meeting Settings'
         file: '_config_test.yml'
-        description: 'Next Meeting Settings (not yet functional)'
+        description: 'Next Meeting Settings'
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
           - {label: "test", name: "test", widget: "hidden", default: "123"}
