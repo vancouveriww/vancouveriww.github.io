@@ -87,8 +87,6 @@ function translateSpan() {
 	var transCookie = getCookie("googtrans");
 	var transLink = "";
 	var domain = document.domain.split('.').reverse().splice(0,2).reverse().join('.');
-	
-	alert(domain);
 
 	if (transCookie == "/en/es") {
 		transLink = "#googtrans(en)";
