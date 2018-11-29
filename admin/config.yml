@@ -51,8 +51,6 @@ collections:
         file: '_data/next_meeting.yml'
         description: 'Next Meeting Settings'
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-          - {label: "test", name: "test", widget: "hidden", default: "123"}
-          - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string"}
+          - {label: "Next Meeting URL", name: "next_meeting_url", widget: "list"}
           - {label: "Next Meeting Date", name: "next_meeting_date", widget: "string"}
           - {label: "Meeting Time", name: "meeting_time", widget: "string"}
