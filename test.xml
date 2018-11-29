@@ -4,10 +4,10 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        {% for post in site.categories["newsletter"] %}
-          {% if post.newsletter == "true" %}
+        {% for page in site.categories["newsletter"] %}
+          {% if page.newsletter == "true" %}
             <item>
-                <title>{{ post.title | xml_escape }}</title>
+                <title>{{ page.title | xml_escape }}</title>
             </item>
           {% endif %}
         {% endfor %}
