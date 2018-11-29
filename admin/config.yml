@@ -4,6 +4,7 @@
   
 backend:
   name: test-repo
+  repo: IWW-NYC-GMB/IWW-NYC-GMB.github.io
 
 display_url: https://static.wobblycity.org
 
