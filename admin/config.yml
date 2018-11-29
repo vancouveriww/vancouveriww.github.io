@@ -16,7 +16,7 @@ collections:
       preview: false
     label: "News" # Used in the UI
     folder: "news/_posts" # The path to the folder where the documents are stored
-    extension: html
+    extension: md, html
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
