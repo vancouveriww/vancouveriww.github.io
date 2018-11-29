@@ -15,6 +15,7 @@ collections:
     editor:
       preview: false
     label: "News" # Used in the UI
+    label_singular: "news item"
     folder: "news/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -30,7 +31,7 @@ collections:
     editor:
       preview: false
     label: "Events"
-    label_singular: "Event"
+    label_singular: "event"
     folder: "_events"
     create: true
     fields:
