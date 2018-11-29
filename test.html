@@ -1,7 +1,9 @@
 ---
 layout: null
 ---
-{{ site.news }}
+{% for item in site.news %}
+  <h2>{{ item.title }}</h2>
+{% endfor %}
 
 {% for post in site.news %}
   {% if post.newsletter == true %}
