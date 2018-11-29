@@ -10,7 +10,7 @@ permalink: /events/
       <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
       <p>{{ item.date | date: "%A, %B %-d, %Y" }}
         
-        {{ item.date | date: "%A, %B" }}
+        <br>{{ item.date | date: "%A, %B" }}
         {% assign day = page.date | date: "%-d"  %}
         {% case day %}
          {% when '1' or '21' or '31' %}{{ day }}st
