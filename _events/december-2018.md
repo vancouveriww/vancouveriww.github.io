@@ -1,7 +1,7 @@
 ---
 layout: event
 title: General Membership Branch · December Meeting
-date: 2018-12-11T20:11:10.051Z
+date: December 11, 2018
 time: '7:00 PM - 9:00 PM'
 ---
 ![](/assets/uploads/event.jpg)
