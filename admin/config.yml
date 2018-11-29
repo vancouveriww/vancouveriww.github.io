@@ -51,7 +51,7 @@ collections:
         description: 'Next Meeting Settings'
         fields:
           - {label: "Next Meeting Date", name: "next_meeting_date", widget: "string"}
-          - {label: "Meeting Time", name: "meeting_time", widget: "string"}
+          - {label: "Meeting Time", name: "meeting_time", widget: "date", format: "dddd, MMMM D, YYYY"}
           - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string", hint: "/event/month-year/"}
 #          - label: "Event search"
 #            name: "search"
