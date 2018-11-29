@@ -58,6 +58,6 @@ collections:
             name: "search"
             widget: "relation"
             collection: "events"
-            searchFields: ["event"]
+            searchFields: ["events"]
             valueField: "title"
-            displayFields: ["title", "date"]
+            displayFields: ["title"]
