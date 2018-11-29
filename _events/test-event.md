@@ -6,9 +6,9 @@ time: '7:00 PM - 9:00 PM'
 ---
 ![](/assets/uploads/event.jpg)
 
-Join the IWW NYC GMB on the second Tuesday of each month to learn more about how you can get involved in working class struggles throughout NYC!
+Join the IWW NYC GMB <strong>on</strong> the second Tuesday of each month to learn more about how you can get involved in working class struggles throughout NYC!
 
-
+\n
 
 Email <mailto:nyc-iww@wobblycity.org> ([public key](/assets/keys/publickey.nyc-iww@wobblycity.org.asc)) for location details.
 
