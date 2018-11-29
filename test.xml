@@ -7,7 +7,6 @@ layout: null
         {% for post in site.categories["newsletter"] %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
-                {% endfor %}
             </item>
         {% endfor %}
     </channel>
