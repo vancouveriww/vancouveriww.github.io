@@ -61,4 +61,4 @@ collections:
             collection: "events"
             searchFields: ["title"]
             valueField: "slug"
-             displayFields: ["title", "slug"]
+            displayFields: ["title", "slug"]
