@@ -132,3 +132,7 @@
     @include relative-font-size(2.25);
   }
 }
+
+.event img {
+  border: 1px blue;
+}
