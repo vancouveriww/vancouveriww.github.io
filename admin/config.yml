@@ -47,9 +47,9 @@ collections:
       preview: false
     files:
       - name: 'general'
-        label: 'Next Meeting Settings (not yet functional)'
+        label: 'Next Meeting Settings'
         file: '_config_test.yml'
-        description: 'Next Meeting Settings'
+        description: 'Next Meeting Settings (not yet functional)'
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
           - {label: "test", name: "test", widget: "hidden", default: "123"}
