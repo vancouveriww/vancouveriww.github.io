@@ -36,7 +36,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
-      - {label: "Slug", name: "slug", widget: "hidden", default: {{slug}}}
+      - {label: "Slug", name: "slug", widget: "hidden", default: slug}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date", format: "dddd, MMMM D, YYYY"}
       - {label: "Time", name: "time", widget: "string"}    
