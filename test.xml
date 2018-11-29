@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         {% for post in site.categories["newsletter"] %}
-          {% if post.title == "Test" %}
+          {% if post.newsletter == "true" %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
             </item>
