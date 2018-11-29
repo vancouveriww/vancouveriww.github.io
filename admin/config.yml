@@ -60,4 +60,4 @@ collections:
             collection: "events"
             searchFields: ["title"]
             valueField: "title"
-            displayFields: ["title", "slug"]
+            displayFields: ["{{slug}}"]
