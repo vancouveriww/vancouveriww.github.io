@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{% for post in site.tags.news %}
+{% for post in site.collections["news"] %}
   {% if post.newsletter == true %}
     working
   {% endif %}
