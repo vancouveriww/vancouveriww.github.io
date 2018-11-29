@@ -33,6 +33,7 @@ collections:
     label_singular: "event"
     folder: "_events"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
@@ -49,14 +50,14 @@ collections:
         label: 'Next Meeting Settings'
         file: '_data/next_meeting.yml'
         description: 'Next Meeting Settings'
+        hint: 'Not currently functional'
         fields:
-          - {label: "Next Meeting Date", name: "next_meeting_date", widget: "date", format: "dddd, MMMM D, YYYY"}
-          - {label: "Meeting Time", name: "meeting_time", widget: "string"}
+          - {label: "Next Meeting Date", name: "next_meeting_date", widget: "string"}
+          - {label: "Meeting Time", name: "meeting_time", widget: "date", format: "dddd, MMMM D, YYYY"}
           - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string", hint: "/event/month-year/"}
-#          - label: "Event search"
-#            name: "search"
-#            widget: "relation"
-#            collection: "events"
-#            searchFields: ["title", "{{slug}}", "slug"]
-#            valueField: "permalink"
-#            displayFields: ["title", "{{slug}}", "slug"]
+          - label: "Event search"
+            name: "search"
+            widget: "relation"
+            collection: "events"
+            searchFields: ["title"]
+            valueField: "slug",
