@@ -86,7 +86,7 @@ function loadTranslate() {
 function translateSpan() {
 	var transCookie = getCookie("googtrans");
 	var transLink = "";
-	var domain = window.location.hostname;
+	var domain = document.domain.split('.').reverse().splice(0,2).reverse().join('.');
 	
 	alert(domain);
 
