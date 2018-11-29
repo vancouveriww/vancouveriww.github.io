@@ -42,6 +42,19 @@ collections:
       - {label: "Date", name: "date", widget: "date", format: "dddd, MMMM D, YYYY"}
       - {label: "Time", name: "time", widget: "string"}    
       - {label: "Body", name: "body", widget: "markdown"}
+   - name: "next_meeting_test"
+    files:
+      - name: "settings"
+         delete: false
+         editor:
+           preview: false
+         label: "Next Meeting Settings"
+         file: "_data/next_meeting.yml"
+        description: "Next Meeting Settings"
+         fields:
+          - {label: "Next Meeting Date", name: "next_meeting_date", widget: "date", format: "dddd, MMMM D, YYYY"}
+          - {label: "Meeting Time", name: "meeting_time", widget: "string", hint: "Example: 7 to 9 PM"}
+          - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string", hint: "/event/month-year/"}
   - name: "next_meeting"
     label: "Next Meeting Settings"
     delete: false # Prevent users from deleting documents in this collection
@@ -64,16 +77,3 @@ collections:
 #            searchFields: ["title"]
 #            valueField: "slug"
 #            displayFields: ["title", "slug"]
-- name: "next_meeting_test"
-  files:
-    - name: "settings"
-      delete: false
-      editor:
-        preview: false
-      label: "Next Meeting Settings"
-      file: "_data/next_meeting.yml"
-      description: "Next Meeting Settings"
-      fields:
-        - {label: "Next Meeting Date", name: "next_meeting_date", widget: "date", format: "dddd, MMMM D, YYYY"}
-        - {label: "Meeting Time", name: "meeting_time", widget: "string", hint: "Example: 7 to 9 PM"}
-        - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string", hint: "/event/month-year/"}
