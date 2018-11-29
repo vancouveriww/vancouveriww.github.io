@@ -8,7 +8,6 @@ layout: null
             {% if page.newsletter contains "true" %}
             <item>
                 <title>{{ page.title | xml_escape }}</title><br>
-                <test>{{ page.newsletter | xml_escape }}</test><br>
                 <test>{{ page.newsletter }}</test>
             </item>
             {% endif %}
