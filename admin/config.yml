@@ -36,7 +36,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "date", format: "MMM Do YYYY"}
+      - {label: "Date", name: "date", widget: "date", format: "dddd, MMMM Do, YYYY"}
       - {label: "Time", name: "time", widget: "string"}    
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'settings'
