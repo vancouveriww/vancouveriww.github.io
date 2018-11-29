@@ -9,15 +9,6 @@ permalink: /events/
     <div style="padding-left:107px;margin-bottom:60px;" id="events-main-info">
       <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
       <p>{{ item.date | date: "%A, %B %-d, %Y" }}
-        
-        <br>{{ item.date | date: "%A, %B %-d" }}{% assign day = page.date | date: "%-d" %}
-        {% case day %}
-         {% when '1' or '21' or '31' %}{{ day }}st
-         {% when '2' or '22' %}{{ day }}nd
-         {% when '3' or '23' %}{{ day }}rd
-         {% else %}{{day}}th
-        {% endcase %}{{ item.date | date: ", %Y" }}
-        
         <br>
         {{ item.time }}</p>
     </div>
