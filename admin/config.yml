@@ -16,7 +16,6 @@ collections:
       preview: false
     label: "News" # Used in the UI
     label_singular: "news item"
-    slug: "{{slug}}"
     folder: "news/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -59,6 +58,6 @@ collections:
             name: "search"
             widget: "relation"
             collection: "events"
-            searchFields: ["title"]
+            searchFields: ["title", "permalink"]
             valueField: "title"
-            displayFields: ["slug"]
+            displayFields: ["permalink"]
