@@ -86,15 +86,18 @@ function loadTranslate() {
 function translateSpan() {
 	var transCookie = getCookie("googtrans");
 	var transLink = "";
+	var domain = window.location.hostname;
+	
+	alert(domain);
 
 	if (transCookie == "/en/es") {
 		transLink = "#googtrans(en)";
 		document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-		document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.wobblycity.org";
+		document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=." + domain;
 	} else {
 		transLink = "#googtrans(es)";
 		document.cookie = "googtrans=/en/es; path=/;";
-		document.cookie = "googtrans=/en/es; path=/; domain=.wobblycity.org";
+		document.cookie = "googtrans=/en/es; path=/; domain=." + domain;
 	}
 
 	window.location = transLink;
