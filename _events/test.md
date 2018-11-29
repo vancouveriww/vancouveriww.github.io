@@ -1,7 +1,7 @@
 ---
 layout: event
 title: test
-date: 'Saturday, December 1, 2018'
+date: 'Wednesday, December 12, 2018'
 time: test
 ---
 test
