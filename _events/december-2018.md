@@ -1,6 +1,6 @@
 ---
 layout: event
-title: General Membership Branch · December Meeting test
+title: General Membership Branch · December Meeting
 date: 'Tuesday, December 11, 2018'
 time: '7:00 PM - 9:00 PM'
 ---
