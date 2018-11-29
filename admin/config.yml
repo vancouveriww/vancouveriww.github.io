@@ -58,6 +58,6 @@ collections:
             name: "search"
             widget: "relation"
             collection: "events"
-            searchFields: ["title", "permalink"]
+            searchFields: ["title", "{{slug}}", "slug"]
             valueField: "permalink"
-            displayFields: ["title", "permalink"]
+            displayFields: ["title", "{{slug}}", "slug"]
