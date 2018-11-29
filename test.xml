@@ -7,7 +7,8 @@ layout: null
         {% for page in site.categories["newsletter"] %}
 
             <item>
-                <title>{{ page.title | xml_escape }}</title>
+                <title>{{ page.title | xml_escape }}</title><br>
+                <test>{{ page.newsletter | xml_escape }}</test>
             </item>
 
         {% endfor %}
