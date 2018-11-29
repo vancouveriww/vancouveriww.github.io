@@ -5,6 +5,10 @@ layout: null
   <h2>{{ item.title }}</h2>
 {% endfor %}
 
+{% for item in site.events %}
+  <h2>{{ item.title }}</h2>
+{% endfor %}
+
 {% for post in site.news %}
   {% if post.newsletter == true %}
     working
