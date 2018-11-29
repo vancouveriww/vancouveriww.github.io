@@ -14,17 +14,6 @@ publish_mode: editorial_workflow
 media_folder: "assets/uploads"
 
 collections:
-  - name: "settings"
-    delete: false
-    editor:
-      preview: false
-    label: "Next Meeting Settings"
-    file: "_data/next_meeting.yml"
-    description: "Next Meeting Settings"
-    fields:
-      - {label: "Next Meeting Date", name: "next_meeting_date", widget: "date", format: "dddd, MMMM D, YYYY"}
-      - {label: "Meeting Time", name: "meeting_time", widget: "string", hint: "Example: 7 to 9 PM"}
-      - {label: "Next Meeting URL", name: "next_meeting_url", widget: "string", hint: "/event/month-year/"}
   - name: "news"
     editor:
       preview: false
