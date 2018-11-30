@@ -24,7 +24,7 @@ title: News
       &laquo; Prev
     </a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <span style="word-spacing:normal;">&laquo; Prev</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -46,7 +46,7 @@ title: News
       Next &raquo;
     </a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span style="word-spacing:normal;">Next &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
