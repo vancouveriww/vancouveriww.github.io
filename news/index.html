@@ -21,10 +21,10 @@ title: News
 <div>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">
-      &#9664;&#xFE0E
+      &#9664;&#xFE0E;
     </a>
   {% else %}
-    <span>&#9664;&#xFE0E</span>
+    <span>&#9664;&#xFE0E;</span>
   {% endif %}
 	<span style="font-size:20px !important;">
   {% for page in (1..paginator.total_pages) %}
@@ -43,10 +43,10 @@ title: News
 	</span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url }}">
-      &#9654;&#xFE0E
+      &#9654;&#xFE0E;
     </a>
   {% else %}
-    <span>&#9654;&#xFE0E</span>
+    <span>&#9654;&#xFE0E;</span>
   {% endif %}
 </div>
 {% endif %}
