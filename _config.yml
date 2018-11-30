@@ -12,6 +12,9 @@ instagram_username: iwwnyc
 
 markdown: kramdown
 
+plugins:
+  - jekyll-seo-tag
+
 collections:
   events:
     output: true
