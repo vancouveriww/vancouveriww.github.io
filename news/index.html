@@ -2,7 +2,7 @@
 layout: page
 title: News
 ---
-<!-- {% for post in site.posts %}
+{% for post in paginator.posts %}
   {% if post.categories contains 'news' %}
 	<div style="margin-bottom:100px;">
     <span style="text-align:center;">
@@ -14,11 +14,6 @@ title: News
 		</div>
 	</div>
   {% endif %}
-{% endfor %} -->
-
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 {% endfor %}
 
 <!-- Pagination links -->
