@@ -15,16 +15,16 @@ layout: default
   </div>
   <p style="text-align:center;">
     <em>As long as you are a worker – not an employer – you can join the IWW. Members of other unions (except officers), students, retirees, the unemployed, the self-employed, those in informal professions, and those unable to work may also join. <a href="{{site.baseurl}}/why-join">Learn why you should join the IWW.</a></em><br><br>
-</p>
+  </p>
 
-<hr style="margin:20px 0 50px 0;">
+  <hr style="margin:20px 0 50px 0;">
 
       <p style="text-align:center;font-weight:700;font-size:22px;">IWW NYC General Membership Branch meetings are held the second Tuesday of each month from {{ site.data.next_meeting["meeting_time"] }}.</p>
       <p style="text-align:center;font-size:18px;"><br>
         <em>The next meeting of the NYC IWW General Membership Branch will be on {{ site.data.next_meeting["next_meeting_date"] }}. <a href="{{ site.data.next_meeting["next_meeting_url"] }}">Details ▸</a></em>
       </p><br>
 
-<hr style="margin:20px 0 50px 0;">
+  <hr style="margin:20px 0 50px 0;">
 
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup" style="text-align:center;background:rgba(0,0,0,.05);padding:40px 110px 15px 110px;">
@@ -45,6 +45,19 @@ layout: default
     </div>
     <!--End mc_embed_signup-->
 
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:;">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="VBXMFQD43VNGE">
+    <div style="padding-top: 20px; padding-bottom: 0;" class="sqs-block button-block sqs-block-button" data-block-type="53">
+    <button class="button-large" id="pp-donate" type="submit" name="submit" style="margin: 12px 15px 24px 15px;">Donate to the NYC GMB</button>
+    </div></div>
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    <script>
+        if (location.hash == "#donate") {
+         	document.getElementById('pp-donate').click();
+        }
+    </script>
 </div>
 
 <script>
