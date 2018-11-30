@@ -87,6 +87,9 @@
   #select-nav {
     display: block !important;
   }
+  #current-selection {
+    display: block !important;
+  }
   #IWWlogo {
     margin-top: 20px !important;
   }
@@ -459,11 +462,3 @@ a {
 }
 
 @charset "utf-8";
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
