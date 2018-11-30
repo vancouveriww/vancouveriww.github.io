@@ -27,7 +27,7 @@
             <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
           </div>
 
-<select id="select-nav" onchange="location = this.value;">
+<select id="select-nav" onchange="document.getElementById('current-selection').innerHTML = this.options[this.selectedIndex].innerHTML;location = this.value;">
   <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
   <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
   <option value="{{site.baseurl}}/dues/" {% if page.url contains '/dues/' or page.url == '/past-dues/' %}selected{% endif %}>Pay Dues</option>
@@ -41,6 +41,14 @@
   </optgroup>
   <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
 </select>
+<span id="current-selection"></span>
+<script>
+var select_nav = document.getElementById("select-nav");
+var select_nav_content = select_nav.options[select_nav.selectedIndex].innerHTML;
+document.getElementById("current-selection").innerHTML = select_nav_content;
+var current_selection_height = document.getElementById("current-selection").offsetHeight + "px";
+select_nav.style.height = current_selection_height;
+</script>
 
       </nav>
     {%- endif -%}
