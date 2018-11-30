@@ -18,9 +18,9 @@ title: News
 
 <div style="text-align:center;word-spacing:10px;">
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div>
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">
+    <a href="{{ paginator.previous_page_path | relative_url }}" style="word-spacing:normal;">
       &laquo; Prev
     </a>
   {% else %}
@@ -42,7 +42,7 @@ title: News
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">
+    <a href="{{ paginator.next_page_path | relative_url }}" style="word-spacing:normal;">
       Next &raquo;
     </a>
   {% else %}
