@@ -18,7 +18,6 @@ title: News
 
 <div style="text-align:center;">
 	
-	
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -47,6 +46,8 @@ title: News
     <a href="{{ paginator.previous_page_path | relative_url }}">
       &laquo; Prev
     </a>
+  {% else %}
+    <span>&laquo; Prev</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -67,6 +68,8 @@ title: News
     <a href="{{ paginator.next_page_path | relative_url }}">
       Next &raquo;
     </a>
+  {% else %}
+    <span>Next &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
