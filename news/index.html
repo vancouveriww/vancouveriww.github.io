@@ -3,7 +3,7 @@ layout: page
 title: News
 permalink: /news/
 ---
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   {% if post.categories contains 'news' %}
 	<div style="margin-bottom:100px;">
     <span style="text-align:center;">
