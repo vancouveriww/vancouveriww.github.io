@@ -16,6 +16,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+image: /assets/social.png
+
 collections:
   events:
     output: true
