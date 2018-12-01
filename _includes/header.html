@@ -43,7 +43,7 @@
 </select>
 <span id="current-selection"></span>
 <script>
-function navChange () {}
+function navChange () {
   var select_nav = document.getElementById("select-nav");
   var select_nav_content = select_nav.options[select_nav.selectedIndex].innerHTML;
   document.getElementById("current-selection").innerHTML = select_nav_content + "&nbsp;<span style='font-size:12px !important;vertical-align:middle;color:hsl(356, 68%, 41%);'>&#9660;&#xFE0E;</span>";
