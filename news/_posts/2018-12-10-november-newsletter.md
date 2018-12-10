@@ -13,7 +13,7 @@ In addition to the events listed below, you can always check the [Google Calenda
 ## UPCOMING BRANCH EVENTS
 
 **Every day at various times:** We need Fellow Workers to participate in consumer education. Please email [FW Frank](mailto:secretary@wobblycity.org) if you would like to sign up for a shift. We have also started a Slack to coordinate our consumer education shifts - please email Frank if you would like to get added to our channel.
-
+<br><br>
 **Sunday, December 5:** The Incarcerated  Workers Organizing Committee (IWOC), along with the Stop the Raids Coalition,  is hosting their monthly Family Gathering Against the Raids. Come out for letter-writing and hat-passing for desperately needed commissary money (time and location TBD). E-mail <mailto:iwoc.nyc@riseup.net> to RSVP.
 <br><br>
 **Tuesday, December 11 at 6:30 p.m.:** Attend  an orientation for new members of the NYC GMB. The orientation will take place prior to our monthly branch meeting and acquaint you with the  history of the IWW, current NYC GMB campaigns, rules for how the  monthly meeting proceeds, and more. For location details, email secretary@wobblycity.org.
@@ -25,7 +25,6 @@ In addition to the events listed below, you can always check the [Google Calenda
 
 ## IN CASE YOU MISSED IT
 
-<br><br>
 **Branch officer elections took place at the November monthly meeting, Congratulations to our new officers!** FW Lou is the new Secretary, FW Z is the new Treasurer, FWs Ryan and JC are now Assistant Secretaries, and FW Liam is now Assistant Treasurer.
 <br><br>
 **The branch has voted to hold on Organizer Training 101 in early 2019.** Details are forthcoming, but if you would like to help organize the training, please email <mailto:secretary@wobblycity.org>.
@@ -35,7 +34,6 @@ In addition to the events listed below, you can always check the [Google Calenda
 
 ## WHAT WOBBLIES READ AND LISTEN TO
 
-<br><br>
 “[Interview with General Secretary-Treasurer Travis Erickson of the IWW](https://chirb.it/n45nNG),” podcast. _Chirbit_ (interview by Liss of the NYC GMB)
 <br><br>
 "[Labor Struggles at The New School: Strike, Wildcat, Occupation](http://organizing.work/2018/09/labor-struggles-at-the-new-school-strike-wildcat-occupation/),” _Organizing Work_ (written by Arvind of the NYC GMB)
