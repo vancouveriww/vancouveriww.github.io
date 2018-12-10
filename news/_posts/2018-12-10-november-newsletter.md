@@ -3,6 +3,7 @@ layout: post
 title: November Newsletter
 date: 2018-11-25T18:19:10.091Z
 permalink: '/:categories/:year/:i_month/:i_day/:slug'
+newsletter: true
 ---
 Fellow Workers,<br><br>
 
