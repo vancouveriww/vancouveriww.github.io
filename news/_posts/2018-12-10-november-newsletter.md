@@ -16,11 +16,11 @@ In addition to the events listed below, you can always check the [Google Calenda
 <br><br>
 **Sunday, December 5:** The Incarcerated  Workers Organizing Committee (IWOC), along with the Stop the Raids Coalition,  is hosting their monthly Family Gathering Against the Raids. Come out for letter-writing and hat-passing for desperately needed commissary money (time and location TBD). E-mail <mailto:iwoc.nyc@riseup.net> to RSVP.
 <br><br>
-**Tuesday, December 11 at 6:30 p.m.:** Attend  an orientation for new members of the NYC GMB. The orientation will take place prior to our monthly branch meeting and acquaint you with the  history of the IWW, current NYC GMB campaigns, rules for how the  monthly meeting proceeds, and more. For location details, email secretary@wobblycity.org.
+**Tuesday, December 11 at 6:30 p.m.:** Attend  an orientation for new members of the NYC GMB. The orientation will take place prior to our monthly branch meeting and acquaint you with the  history of the IWW, current NYC GMB campaigns, rules for how the  monthly meeting proceeds, and more. For location details, email <mailto:secretary@wobblycity.org>.
 <br><br>
 **Tuesday, December 11 at 7 p.m.:** Attend the monthly meeting of the IWW NYC GMB. For location details, email <mailto:secretary@wobblycity.org>.
 <br><br>
-**Saturday, January 26:** IWOC is hosting a welcome home party for those who have been affected by raids. Please reach out to iwoc.nyc@riseup.net if you can help out with outreach or logistics before the event (time and location TBD).
+**Saturday, January 26:** IWOC is hosting a welcome home party for those who have been affected by raids. Please reach out to <mailto:iwoc.nyc@riseup.net> if you can help out with outreach or logistics before the event (time and location TBD).
 <br><br>
 
 ## IN CASE YOU MISSED IT
