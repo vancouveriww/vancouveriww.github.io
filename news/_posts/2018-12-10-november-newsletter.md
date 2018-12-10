@@ -38,12 +38,14 @@ In addition to the events listed below, you can always check the [Google Calenda
 <br><br>
 "[Labor Struggles at The New School: Strike, Wildcat, Occupation](http://organizing.work/2018/09/labor-struggles-at-the-new-school-strike-wildcat-occupation/),” _Organizing Work_ (written by Arvind of the NYC GMB)
 
+<br><br>
+
 “[Lessons from a Graduate Student Employees’ Union](http://organizing.work/2018/10/lessons-from-a-graduate-student-employees-union/),” _Organizing Work_ (written by Eric of the NYC GMB)
 <br><br>
 “[Health and Safety in a Solidarity Union,](http://organizing.work/2018/10/health-and-safety-in-a-solidarity-union/)” Organizing Work (written by Martha of Stardust Family United)
 <br><br>
 “[Class Consciousness Comes to America](http://prospect.org/article/class-consciousness-comes-america),” _American Prospect_
 
-
+<br><br>
 
 “[Trump’s NLRB Just Quietly Ruled to Make Union Pickets Illegal](http://inthesetimes.com/working/entry/21530/trump_nlrb_union_pickets_illegal_labor_joint_employer),” _In These Times_
