@@ -6,9 +6,13 @@ permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
 Fellow Workers,
 
+
+
 Welcome  to the November edition of our e-newsletter! Feedback and collaboration  are always encouraged. Simply reply to this email with comments or questions.
 
 In addition to the events listed below, you can always check the [Google Calendar of the NYC General Defense Committee (GDC)](https://calendar.google.com/calendar/embed?src=nycgdc%40protonmail.com&ctz=America/New_York) for more happenings. If you would like to submit radical events in and around New York City to the calendar, email details to <mailto:nycgdc@protonmail.com>.
+
+
 
 ## UPCOMING BRANCH EVENTS
 
