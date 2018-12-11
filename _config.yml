@@ -12,7 +12,7 @@ instagram_username: iwwnyc
 
 markdown: kramdown
 
-kramdown
+kramdown:
   hard_wrap: true
 
 plugins:
