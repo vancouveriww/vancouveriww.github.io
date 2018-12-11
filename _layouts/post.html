@@ -15,7 +15,7 @@ layout: default
   </header></br>
 
   <div>
-    {{ content }}
+    {{ content | replace: "<a", "<null" | replace: "</a", "</null" }}
   </div>
 
 </article>
