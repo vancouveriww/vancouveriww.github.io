@@ -11,8 +11,9 @@ facebook_username: nyciww
 instagram_username: iwwnyc
 
 markdown: kramdown
-  input: GFM
-  hard_wrap: false
+
+kramdown
+  hard_wrap: true
 
 plugins:
   - jekyll-sitemap
