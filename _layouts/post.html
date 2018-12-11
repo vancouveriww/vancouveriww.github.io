@@ -16,7 +16,7 @@ layout: default
 
   <div>
   {% if page.netlify == "true" %}
-   {{ content | newline_to_br | replace: "<br><br>", "<br>" | newline_to_br | replace: "<br>\n<br>", "<br>" }}
+    {{ content | newline_to_br | replace: "<br><br>", "<br>" | newline_to_br | replace: "<br>\n<br>", "<br>" }}
   {% else %}
     {{ content }}
   {% endif %}
