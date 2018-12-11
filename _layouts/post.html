@@ -18,11 +18,9 @@ layout: default
   {% if page.netlify == "true" %}
    {{ content | newline_to_br | replace: "<br><br>", "<br>" | newline_to_br | replace: "<br>\n<br>", "<br>"
  }}
-  {% elsif page.netlify == "false" %}
+  {% else %}
     {{ content }}
   {% endif %}
-    {{ content | newline_to_br | replace: "<br><br>", "<br>" | newline_to_br | replace: "<br>\n<br>", "<br>"
- }}
   </div>
 
 </article>
