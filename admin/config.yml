@@ -29,7 +29,7 @@ collections:
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:year/:i_month/:i_day/:slug"}
       - {label: "Send to Mailchimp", name: "newsletter", widget: "boolean", hint: "Send this post as a Mailchimp newsletter", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", button: "bold, italic, code, link, heading-one, heading-two, heading-three, code-block, bulleted-list, and numbered-list"}
   - name: "events"
     editor:
       preview: false
