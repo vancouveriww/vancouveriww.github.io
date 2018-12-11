@@ -15,6 +15,12 @@ layout: default
   </header></br>
 
   <div>
+  {% if page.netlify == "true" %}
+   {{ content | newline_to_br | replace: "<br><br>", "<br>" | newline_to_br | replace: "<br>\n<br>", "<br>"
+ }}
+  {% elsif page.netlify == "false" %}
+    {{ content }}
+  {% endif %}
     {{ content | newline_to_br | replace: "<br><br>", "<br>" | newline_to_br | replace: "<br>\n<br>", "<br>"
  }}
   </div>
