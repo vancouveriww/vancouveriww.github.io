@@ -15,7 +15,7 @@ layout: default
   </header></br>
 
   <div>
-    {{ content | replace: "<a", "<null" | replace: "</a", "</null" }}
+    {{ content | newline_to_bra | replace: "<br><br>", "<br>" }}
   </div>
 
 </article>
