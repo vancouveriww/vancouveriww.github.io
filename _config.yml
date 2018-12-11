@@ -13,7 +13,7 @@ instagram_username: iwwnyc
 markdown: kramdown
 
 kramdown:
-  hard_wrap: true
+  hard_wrap: false
 
 plugins:
   - jekyll-sitemap
