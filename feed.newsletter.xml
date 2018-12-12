@@ -13,7 +13,12 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts %}{% if post.newsletter == true %}<item>
       <title>{{ post.title | xml_escape }}</title>
-      <description>{{ post.content | xml_escape }}
+      <description>
+      {% if post.netlify == true %}
+        {{ post.content | newline_to_br | newline_to_br | replace: "<h2>", "<h3>" | replace: "</h2>", "</h3>" | replace: "</h3><br /><br />", "</h3>" | replace: "</p><br /><br />", "</p><br />" | xml_escape }}
+      {% else %}
+        {{ post.content }}
+      {% endif %}
       </description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
