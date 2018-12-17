@@ -5,7 +5,7 @@ backend:
 #backend:
 # name: test-repo
 
-display_url: https://static.wobblycity.org
+display_url: https://wobblycity.org
 
 logo_url: /assets/iww_netlify.png
 
