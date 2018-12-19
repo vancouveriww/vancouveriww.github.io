@@ -11,18 +11,21 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts %}{% if post.newsletter == true %}<item>
+    {%- for post in site.posts -%}
+      {%- if post.newsletter == true -%}<item>
       <title>{{ post.title | xml_escape }}</title>
       <description>
-      {% if post.netlify == true %}
+        {%- if post.netlify == true -%}
         {{ post.content | newline_to_br | newline_to_br | replace: "<h2", "<h3" | replace: "</h2>", "</h3>" | replace: "</h3><br /><br />", "</h3>" | replace: "</p><br /><br />", "</p><br />"  | xml_escape }}
-      {% else %}
+        {%- else -%}
         {{ post.content | xml_escape }}
-      {% endif %}
+        {%- endif -%}
       </description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-    </item>{% endif %}{% endfor %}
+    </item>
+    {%- endif -%}
+    {%- endfor -%}
   </channel>
 </rss>
