@@ -2,6 +2,7 @@ title: IWW NYC GMB · Industrial Workers of the World
 email: nyc-gmb@wobblycity.org
 baseurl: ""
 url: "https://wobblycity.org"
+description: The latest news and happenings from the NYC Industrial Workers of the World! Join the General Membership Branch today and organize your industry!
 
 future: true
 
@@ -9,6 +10,21 @@ twitter_username: iwwnyc
 github_username: iww-nyc-gmb
 facebook_username: nyciww
 instagram_username: iwwnyc
+
+social:
+  name: IWW NYC GMB
+  links:
+    - https://www.twitter.com/iwwnyc
+    - https://www.facebook.com/nyciww
+    - https://instagram.com/iwwnyc
+    - https://github.com/iww-nyc-gmb
+
+twitter:
+  username: iwwnyc
+  card: summary
+
+facebook:
+  publisher: nyciww
 
 markdown: kramdown
 
@@ -20,6 +36,7 @@ plugins:
   - jekyll-seo-tag
 
 image: /assets/social.png
+logo: /assets/logo.png
 
 collections:
   events:
