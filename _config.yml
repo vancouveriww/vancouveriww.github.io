@@ -7,7 +7,7 @@ description: The latest news and happenings from the NYC Industrial Workers of t
 future: true
 
 twitter_username: iwwnyc
-github_username: iww-nyc-gmb
+github_username: iwwnyc
 facebook_username: iwwnyc
 instagram_username: iwwnyc
 
@@ -17,7 +17,7 @@ social:
     - https://www.twitter.com/iwwnyc
     - https://www.facebook.com/iwwnyc
     - https://instagram.com/iwwnyc
-    - https://github.com/iww-nyc-gmb
+    - https://github.com/iwwnyc
 
 twitter:
   username: iwwnyc
