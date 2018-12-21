@@ -8,14 +8,14 @@ future: true
 
 twitter_username: iwwnyc
 github_username: iww-nyc-gmb
-facebook_username: nyciww
+facebook_username: iwwnyc
 instagram_username: iwwnyc
 
 social:
   name: IWW NYC GMB
   links:
     - https://www.twitter.com/iwwnyc
-    - https://www.facebook.com/nyciww
+    - https://www.facebook.com/iwwnyc
     - https://instagram.com/iwwnyc
     - https://github.com/iww-nyc-gmb
 
@@ -24,7 +24,7 @@ twitter:
   card: summary
 
 facebook:
-  publisher: nyciww
+  publisher: iwwnyc
 
 markdown: kramdown
 
