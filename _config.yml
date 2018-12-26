@@ -1,30 +1,30 @@
-title: IWW NYC GMB · Industrial Workers of the World
-email: nyc-gmb@wobblycity.org
+title: IWW Vancouver GMB · Industrial Workers of the World
+email: contact@vancouveriww.org
 baseurl: ""
-url: "https://wobblycity.org"
-description: The latest news and happenings from the NYC Industrial Workers of the World! · An injury to one is an injury to all.
+url: "https://vancouveriww.org"
+description: The latest news and happenings from the Vancouver Industrial Workers of the World! · An injury to one is an injury to all.
 
 future: true
 
-twitter_username: iwwnyc
-github_username: iwwnyc
-facebook_username: iwwnyc
-instagram_username: iwwnyc
+twitter_username: vancouveriww
+github_username: vancouveriww
+facebook_username: vancouveriww
+instagram_username: vanocouveriww
 
 social:
-  name: IWW NYC GMB
+  name: IWW Vancouver GMB
   links:
-    - https://www.twitter.com/iwwnyc
-    - https://www.facebook.com/iwwnyc
-    - https://instagram.com/iwwnyc
-    - https://github.com/iwwnyc
+    - https://www.twitter.com/vancouveriww
+    - https://www.facebook.com/vancouveriww
+    - https://instagram.com/vancouveriww
+    - https://github.com/vancouveriww
 
 twitter:
-  username: iwwnyc
+  username: vancouveriww
   card: summary
 
 facebook:
-  publisher: iwwnyc
+  publisher: vancouveriww
 
 markdown: kramdown
 
