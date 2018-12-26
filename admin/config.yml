@@ -1,11 +1,11 @@
 backend:
  name: github
- repo: IWW-NYC-GMB/IWW-NYC-GMB.github.io # Path to your GitHub repository
+ repo: vancouveriww/vancouveriww.github.io # Path to your GitHub repository
   
 #backend:
 # name: test-repo
 
-display_url: https://wobblycity.org
+display_url: https://vancouveriww.org
 
 logo_url: /assets/iww_netlify.png
 
