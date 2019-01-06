@@ -11,8 +11,6 @@
 
         <div id="link-nav">
             <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
-            <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
-            <a href="{{site.baseurl}}/dues" class="page-link{% if page.url contains '/dues/' or page.url == '/past-dues/' %} current{% endif %}">Pay Dues</a>
             <a href="{{site.baseurl}}/events" class="page-link{% if page.url contains '/events/' %} current{% endif %}">Events</a>
             <a href="{{site.baseurl}}/news" class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
             <div id="dropdown">
@@ -27,15 +25,12 @@
 
 <select id="select-nav" onchange="navChange ();location = this.value;">
   <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
-  <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
-  <option value="{{site.baseurl}}/dues/" {% if page.url contains '/dues/' or page.url == '/past-dues/' %}selected{% endif %}>Pay Dues</option>
   <option value="{{site.baseurl}}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events</option>
   <option value="{{site.baseurl}}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
   <optgroup label="About">About
     <option value="{{site.baseurl}}/gmb/" {% if page.url contains '/gmb/' %}selected{% endif %}>General Membership Branch</option>
     <option value="{{site.baseurl}}/gdc/" {% if page.url contains '/gdc/' %}selected{% endif %}>General Defense Committee</option>
     <option value="https://incarceratedworkers.org/">Incarcerated Workers Organizing Committee</option>
-    <option value="https://www.stardustfamilyunited.com">Stardust Family United</option>
   </optgroup>
   <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
 </select>
