@@ -1,7 +1,7 @@
 ---
 layout: event
-title: Organizer Training 101
-date: 'February 9-10, 2019'
+title: Organizer Training 101 - Day 1
+date: 'Saturday February 9, 2019'
 time: '9:00 AM - 5:00 PM'
 ---
 
