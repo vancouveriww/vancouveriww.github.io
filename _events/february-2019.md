@@ -1,13 +1,12 @@
 ---
 layout: event
-title: General Membership Branch · February Meeting
-date: 'Tuesday, February 12, 2019'
-time: '7:00 PM - 9:00 PM'
+title: Organizer Training 101
+date: 'February 9-10, 2019'
+time: '9:00 AM - 5:00 PM'
 ---
-![](/assets/uploads/event.jpg)
 
-Join the IWW NYC GMB on the second Tuesday of each month to learn more about how you can get involved in working class struggles throughout NYC!
+Your boss is powerless if you are organized!
 
-Email <mailto:nyc-iww@wobblycity.org> ([public key](/assets/keys/publickey.nyc-iww@wobblycity.org.asc)) for location details.
+The Organizer Training 101 (OT101) workshop covers the basic steps towards forming a union at your workshop. Through discussion, Q&A sessions, and role-playing activities, participants will learn how to talk to co-workers about workplace issues, prepare an effective organizing strategy and build a union.
 
-[Facebook Event](https://www.facebook.com/events/1872624546126537)
+Email <mailto:contact@vancouveriww.org> for location details.
