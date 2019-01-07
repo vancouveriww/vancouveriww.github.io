@@ -13,13 +13,7 @@
             <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
             <a href="{{site.baseurl}}/events" class="page-link{% if page.url contains '/events/' %} current{% endif %}">Events</a>
             <a href="{{site.baseurl}}/news" class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
-            <div id="dropdown">
-              <a href="{{site.baseurl}}/gmb" class="page-link{% if page.url contains '/gmb/' or page.url == '/gdc/' %} current{% endif %}">About</a>
-                <div id="dropdown-content">
-                  <a href="{{site.baseurl}}/gmb/" class="page-link{% if page.url == '/gmb/' %} current{% endif %}">General Membership Branch</a>
-                  <a href="{{site.baseurl}}/gdc/" class="page-link{% if page.url contains '/gdc/' %} current{% endif %}">General Defense Commitee</a>
-                </div>
-            </div>
+	    <a href="{{site.baseurl}}/about" class="page-link{% if page.url contains '/about/' %} current{% endif %}">About</a>
             <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
           </div>
 
@@ -27,11 +21,7 @@
   <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
   <option value="{{site.baseurl}}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events</option>
   <option value="{{site.baseurl}}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
-  <optgroup label="About">About
-    <option value="{{site.baseurl}}/gmb/" {% if page.url contains '/gmb/' %}selected{% endif %}>General Membership Branch</option>
-    <option value="{{site.baseurl}}/gdc/" {% if page.url contains '/gdc/' %}selected{% endif %}>General Defense Committee</option>
-    <option value="https://incarceratedworkers.org/">Incarcerated Workers Organizing Committee</option>
-  </optgroup>
+  <option value="{{site.baseurl}}/about/" {% if page.url contains '/about/' %}selected{% endif %}>About</option>
   <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
 </select>
 <span id="current-selection"></span>
