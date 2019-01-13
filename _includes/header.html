@@ -12,7 +12,7 @@
 	<a href="{{site.baseurl}}/about" class="page-link{% if page.url contains '/about/' %} current{% endif %}">About</a>
 	<a href="{{site.baseurl}}/news" class="page-link{% if page.url contains '/news/' %} current{% endif %}">News</a>
         <a href="{{site.baseurl}}/events" class="page-link{% if page.url contains '/events/' %} current{% endif %}">Events</a>
-	<!-- <a href="{{site.baseurl}}/resources" class="page-link{% if page.url contains '/resources/' %} current{% endif %}">Resources</a> -->
+	<a href="{{site.baseurl}}/resources" class="page-link{% if page.url contains '/resources/' %} current{% endif %}">Resources</a>
         <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
       </div>
 
@@ -21,7 +21,7 @@
 	<option value="{{site.baseurl}}/about/" {% if page.url contains '/about/' %}selected{% endif %}>About</option>
 	<option value="{{site.baseurl}}/news/" {% if page.url contains '/news/' %}selected{% endif %}>News</option>
         <option value="{{site.baseurl}}/events/" {% if page.url contains '/events/' %}selected{% endif %}>Events</option>
-        <!-- <option value="{{site.baseurl}}/resources/" class="page-link{% if page.url contains '/resources/' %} current{% endif %}">Resources</a> -->
+        <option value="{{site.baseurl}}/resources/" class="page-link{% if page.url contains '/resources/' %} current{% endif %}">Resources</a>
         <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
       </select>
       <span id="current-selection"></span>
