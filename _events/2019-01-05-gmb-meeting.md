@@ -5,7 +5,7 @@ date: 'Saturday, January 5, 2019'
 time: '5:00 PM - 7:00 PM'
 ---
 
-Join the IWW Vancouver GMB on the fifth of each month to learn more about how you can get involved in working class struggles throughout Vancouver!
+Join the Vancouver General Membership Branch of the Industrial Workers of the World on the fifth of every month to learn how you can get involved in building working class solidarity throughout the region!
 
 Email <mailto:contact@vancouveriww.org> for location details.
 
