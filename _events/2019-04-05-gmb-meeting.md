@@ -9,4 +9,4 @@ Join the Vancouver General Membership Branch of the Industrial Workers of the Wo
 
 Email <mailto:contact@vancouveriww.org> for location details.
 
-[Facebook Event](https://www.facebook.com/events/216011546000677/?event_time_id=216011572667341)
+[Facebook Event](https://www.facebook.com/events/216011572667341)
