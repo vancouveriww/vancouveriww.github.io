@@ -1,7 +1,7 @@
 ---
 layout: event
-title: General Membership Branch · June Meeting
-date: 'Friday, June 5, 2019'
+title: General Membership Branch · July Meeting
+date: 'Friday, July 5, 2019'
 time: '7:00 PM - 9:00 PM'
 ---
 
@@ -9,4 +9,4 @@ Join the Vancouver General Membership Branch of the Industrial Workers of the Wo
 
 Email <mailto:contact@vancouveriww.org> for location details.
 
-[Facebook Event](https://www.facebook.com/events/216011546000677)
+[Facebook Event](https://www.facebook.com/events/216011579334007)
