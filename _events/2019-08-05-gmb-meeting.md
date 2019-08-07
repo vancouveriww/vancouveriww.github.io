@@ -2,7 +2,7 @@
 layout: event
 title: General Membership Branch · August Meeting
 date: 'Monday, August 5, 2019'
-time: '7:00 PM - 9:00 PM'
+time: '5:30 PM - 7:30 PM'
 ---
 
 Join the Vancouver General Membership Branch of the Industrial Workers of the World on the fifth of every month to learn how you can get involved in building working class solidarity throughout the region!
